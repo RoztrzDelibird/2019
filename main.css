@@ -1,0 +1,47 @@
+@font-face {
+  font-family: SystemDefaultFont;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"),
+    local(".HelveticaNeueDeskInterface-Light"),
+    local(".LucidaGrandeUI"),
+    local("Ubuntu Light"),
+    local("Segoe UI Light"),
+    local("Roboto-Light"),
+    local("DroidSans"),
+    local("Tahoma");
+}
+
+body {
+  font-family: SystemDefaultFont, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: Consolas, monospace;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  padding: 0 .2em;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(2n) td:nth-child(2n+1), tr:nth-child(2n+1) td:nth-child(2n) {
+  background-color: #eee;
+}
+
+tr:nth-child(2n+1) td:nth-child(2n+1) {
+  background-color: #ddd;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1em auto;
+}
